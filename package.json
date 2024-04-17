@@ -1,0 +1,26 @@
+{
+  "name": "busybeam",
+  "version": "1.0.0",
+  "description": "A Node.js application for integrating Twilio with the Kuando Busylight, providing visual indicators of call status.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "twilio",
+    "busylight",
+    "node",
+    "integration",
+    "communication"
+  ],
+  
+  "dependencies": {
+    "twilio": "^3.61.0",
+    "busylight": "^x.x.x", 
+    "axios": "^x.x.x" 
+  },
+
+  "author": "jack",
+  "license": "MIT"
+}
